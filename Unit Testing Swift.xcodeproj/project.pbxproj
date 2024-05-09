@@ -11,7 +11,6 @@
 		92302A5F2BEBD14D00AD0199 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A5E2BEBD14D00AD0199 /* ContentView.swift */; };
 		92302A612BEBD14E00AD0199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92302A602BEBD14E00AD0199 /* Assets.xcassets */; };
 		92302A652BEBD14E00AD0199 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92302A642BEBD14E00AD0199 /* Preview Assets.xcassets */; };
-		92302A6F2BEBD14E00AD0199 /* Unit_Testing_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A6E2BEBD14E00AD0199 /* Unit_Testing_SwiftTests.swift */; };
 		92302A792BEBD14E00AD0199 /* Unit_Testing_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A782BEBD14E00AD0199 /* Unit_Testing_SwiftUITests.swift */; };
 		92302A7B2BEBD14E00AD0199 /* Unit_Testing_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A7A2BEBD14E00AD0199 /* Unit_Testing_SwiftUITestsLaunchTests.swift */; };
 		92302A882BEBEB7300AD0199 /* SignupWebServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A872BEBEB7300AD0199 /* SignupWebServicesTests.swift */; };
@@ -48,7 +47,6 @@
 		92302A622BEBD14E00AD0199 /* Unit_Testing_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unit_Testing_Swift.entitlements; sourceTree = "<group>"; };
 		92302A642BEBD14E00AD0199 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92302A6A2BEBD14E00AD0199 /* Unit Testing SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Testing SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92302A6E2BEBD14E00AD0199 /* Unit_Testing_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Testing_SwiftTests.swift; sourceTree = "<group>"; };
 		92302A742BEBD14E00AD0199 /* Unit Testing SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Testing SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92302A782BEBD14E00AD0199 /* Unit_Testing_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Testing_SwiftUITests.swift; sourceTree = "<group>"; };
 		92302A7A2BEBD14E00AD0199 /* Unit_Testing_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Testing_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				92302A962BEBEE9C00AD0199 /* Signup */,
-				92302A6E2BEBD14E00AD0199 /* Unit_Testing_SwiftTests.swift */,
 			);
 			path = "Unit Testing SwiftTests";
 			sourceTree = "<group>";
@@ -354,7 +351,6 @@
 			files = (
 				92302A9B2BEBF59800AD0199 /* MockURLProtocol.swift in Sources */,
 				92302A882BEBEB7300AD0199 /* SignupWebServicesTests.swift in Sources */,
-				92302A6F2BEBD14E00AD0199 /* Unit_Testing_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
