@@ -14,6 +14,13 @@
 		92302A6F2BEBD14E00AD0199 /* Unit_Testing_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A6E2BEBD14E00AD0199 /* Unit_Testing_SwiftTests.swift */; };
 		92302A792BEBD14E00AD0199 /* Unit_Testing_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A782BEBD14E00AD0199 /* Unit_Testing_SwiftUITests.swift */; };
 		92302A7B2BEBD14E00AD0199 /* Unit_Testing_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A7A2BEBD14E00AD0199 /* Unit_Testing_SwiftUITestsLaunchTests.swift */; };
+		92302A882BEBEB7300AD0199 /* SignupWebServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A872BEBEB7300AD0199 /* SignupWebServicesTests.swift */; };
+		92302A8A2BEBEBE400AD0199 /* SignupWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A892BEBEBE400AD0199 /* SignupWebServices.swift */; };
+		92302A8C2BEBEC6E00AD0199 /* SignFormRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A8B2BEBEC6E00AD0199 /* SignFormRequestModel.swift */; };
+		92302A8E2BEBED9500AD0199 /* SignupError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A8D2BEBED9500AD0199 /* SignupError.swift */; };
+		92302A902BEBEDB300AD0199 /* SignupResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A8F2BEBEDB300AD0199 /* SignupResponseModel.swift */; };
+		92302A9B2BEBF59800AD0199 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A9A2BEBF59800AD0199 /* MockURLProtocol.swift */; };
+		92302A9D2BEBF76100AD0199 /* SignupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92302A9C2BEBF76100AD0199 /* SignupConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,14 @@
 		92302A742BEBD14E00AD0199 /* Unit Testing SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Testing SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92302A782BEBD14E00AD0199 /* Unit_Testing_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Testing_SwiftUITests.swift; sourceTree = "<group>"; };
 		92302A7A2BEBD14E00AD0199 /* Unit_Testing_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Testing_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92302A872BEBEB7300AD0199 /* SignupWebServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebServicesTests.swift; sourceTree = "<group>"; };
+		92302A892BEBEBE400AD0199 /* SignupWebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebServices.swift; sourceTree = "<group>"; };
+		92302A8B2BEBEC6E00AD0199 /* SignFormRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignFormRequestModel.swift; sourceTree = "<group>"; };
+		92302A8D2BEBED9500AD0199 /* SignupError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupError.swift; sourceTree = "<group>"; };
+		92302A8F2BEBEDB300AD0199 /* SignupResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupResponseModel.swift; sourceTree = "<group>"; };
+		92302A992BEBF46D00AD0199 /* Unit-Testing-Swift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Unit-Testing-Swift-Info.plist"; sourceTree = SOURCE_ROOT; };
+		92302A9A2BEBF59800AD0199 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		92302A9C2BEBF76100AD0199 /* SignupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +110,10 @@
 		92302A5B2BEBD14D00AD0199 /* Unit Testing Swift */ = {
 			isa = PBXGroup;
 			children = (
-				92302A5C2BEBD14D00AD0199 /* Unit_Testing_SwiftApp.swift */,
+				92302A992BEBF46D00AD0199 /* Unit-Testing-Swift-Info.plist */,
+				92302A912BEBEE0C00AD0199 /* App */,
 				92302A5E2BEBD14D00AD0199 /* ContentView.swift */,
+				92302A5C2BEBD14D00AD0199 /* Unit_Testing_SwiftApp.swift */,
 				92302A602BEBD14E00AD0199 /* Assets.xcassets */,
 				92302A622BEBD14E00AD0199 /* Unit_Testing_Swift.entitlements */,
 				92302A632BEBD14E00AD0199 /* Preview Content */,
@@ -115,6 +132,7 @@
 		92302A6D2BEBD14E00AD0199 /* Unit Testing SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				92302A962BEBEE9C00AD0199 /* Signup */,
 				92302A6E2BEBD14E00AD0199 /* Unit_Testing_SwiftTests.swift */,
 			);
 			path = "Unit Testing SwiftTests";
@@ -127,6 +145,67 @@
 				92302A7A2BEBD14E00AD0199 /* Unit_Testing_SwiftUITestsLaunchTests.swift */,
 			);
 			path = "Unit Testing SwiftUITests";
+			sourceTree = "<group>";
+		};
+		92302A912BEBEE0C00AD0199 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92302A922BEBEE2A00AD0199 /* Signup */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		92302A922BEBEE2A00AD0199 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				92302A942BEBEE6200AD0199 /* Network */,
+				92302A932BEBEE3100AD0199 /* Models */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		92302A932BEBEE3100AD0199 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92302A8D2BEBED9500AD0199 /* SignupError.swift */,
+				92302A8F2BEBEDB300AD0199 /* SignupResponseModel.swift */,
+				92302A8B2BEBEC6E00AD0199 /* SignFormRequestModel.swift */,
+				92302A9C2BEBF76100AD0199 /* SignupConstants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92302A942BEBEE6200AD0199 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				92302A892BEBEBE400AD0199 /* SignupWebServices.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		92302A962BEBEE9C00AD0199 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				92302A982BEBEEA800AD0199 /* Models */,
+				92302A972BEBEEA300AD0199 /* Network */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		92302A972BEBEEA300AD0199 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				92302A872BEBEB7300AD0199 /* SignupWebServicesTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		92302A982BEBEEA800AD0199 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92302A9A2BEBF59800AD0199 /* MockURLProtocol.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +338,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92302A8E2BEBED9500AD0199 /* SignupError.swift in Sources */,
+				92302A8C2BEBEC6E00AD0199 /* SignFormRequestModel.swift in Sources */,
+				92302A8A2BEBEBE400AD0199 /* SignupWebServices.swift in Sources */,
+				92302A902BEBEDB300AD0199 /* SignupResponseModel.swift in Sources */,
 				92302A5F2BEBD14D00AD0199 /* ContentView.swift in Sources */,
 				92302A5D2BEBD14D00AD0199 /* Unit_Testing_SwiftApp.swift in Sources */,
+				92302A9D2BEBF76100AD0199 /* SignupConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92302A9B2BEBF59800AD0199 /* MockURLProtocol.swift in Sources */,
+				92302A882BEBEB7300AD0199 /* SignupWebServicesTests.swift in Sources */,
 				92302A6F2BEBD14E00AD0199 /* Unit_Testing_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +508,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Unit Testing Swift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Unit-Testing-Swift-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -458,6 +545,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Unit Testing Swift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Unit-Testing-Swift-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
